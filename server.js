@@ -9,7 +9,7 @@ const indexHtml = fs.readFileSync(filePath);
 
 const client = new Client({
   connectionString: 'postgresql://pguser:2MBjSQ4ZLhWkv567vNlotgvDEGMRe8zq@dpg-d90ok6u7r5hc73bcksp0-a/pgdb_1f14',
-});
+});  
 
 client.connect()
   .then(() => {
