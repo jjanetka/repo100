@@ -1,0 +1,12 @@
+{
+  "name": "repo100",
+  "version": "1.0.0",
+  "description": "Simple Node.js server serving Hi 100",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
